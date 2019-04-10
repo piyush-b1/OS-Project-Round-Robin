@@ -37,7 +37,7 @@ int main()
     if(rt[count]==0 && flag==1) 
     { 
       remain--; 
-      printf("P[%d]\t|\t%d\t|\t%d\n",count+1,time-at[count],time-at[count]-bt[count]); 
+      printf("Q[%d]\t|\t%d\t|\t%d\n",count+1,time-at[count],time-at[count]-bt[count]); 
       wait_time+=time-at[count]-bt[count]; 
       turnaround_time+=time-at[count]; 
       flag=0; 
